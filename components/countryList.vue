@@ -30,8 +30,8 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { ICountryListItem } from '../utils/interfaces/ICountry'
-import { useCountryStore } from '../store/countries'
+import { ICountryListItem } from '@/utils/interfaces/ICountry'
+import { useCountryStore } from '@/store/countries'
 
 export default defineComponent({
   name: 'CountryList',
