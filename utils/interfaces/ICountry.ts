@@ -5,7 +5,7 @@ export interface ICountryListItem {
     flag: string;
     population: number;
     cca3: string;
-}   
+}
 
 export interface ICountrySingle {
     name: {
