@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import CountryList from '@/components/countryList'
+import CountryList from '~/components/countryList'
 export default {
   name: 'IndexPage',
   components: { CountryList }

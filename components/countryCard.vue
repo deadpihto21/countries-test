@@ -25,8 +25,8 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { useCountryStore } from '@/store/countries'
-import { ICountrySingle } from '@/utils/interfaces/ICountry'
+import { useCountryStore } from '~/store/countries'
+import { ICountrySingle } from '~/utils/interfaces/ICountry'
 export default defineComponent({
   name: 'CountryCard',
   data () {

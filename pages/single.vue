@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import CountryCard from '@/components/CountryCard'
+import CountryCard from '~/components/CountryCard'
 export default {
   name: 'CountryPage',
   components: { CountryCard }
